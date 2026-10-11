@@ -3,3 +3,4 @@ project(Calculator LANGUAGES CXX)
 
 add_executable(calculator src/main.cpp src/calculator/add_subtract.cpp)
 target_include_directories(calculator PRIVATE include)
+target_sources(calculator PRIVATE src/calculator/multiply_divide.cpp)
