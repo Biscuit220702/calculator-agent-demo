@@ -3,3 +3,4 @@ project(Calculator LANGUAGES CXX)
 
 add_executable(calculator src/main.cpp)
 target_include_directories(calculator PRIVATE include)
+target_sources(calculator PRIVATE src/ui/basic_layout.cpp)
